@@ -1,0 +1,77 @@
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+header a{
+    font-family:fantasy;
+    font-weight: bolder;
+    font-size: xx-large;
+    transition: all 0.3s;
+   
+}
+header a:hover{
+    transform: scale(1.35);
+
+}
+.card{
+    transition: all 0.3s;
+    width:350px;
+    height: 400px;
+    
+}
+.card:hover{
+    transform: scale(1.10);
+}
+a:hover{
+    color:rgb(47, 182, 20);
+}
+.card>img{
+    width:350px;
+    height: 400px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.intro h1{
+
+    font-size: 22px;
+    color: aliceblue;
+    font-size: 5em;
+    font-weight: 400;
+    transition: all 0.3s;
+}
+
+.intro h1:hover{
+    transform: scale(1.15);
+
+}
+.intro h4{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: aliceblue;
+}
+.intro h5{
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+    color:aliceblue;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 50px;
+    left: 16px;
+  }
+  footer{
+    margin-top: 30px;
+  }
+  footer img{
+    transition: all 0.3s;
+  }
+  footer img:hover{
+    transform: scale(1.35);
+
+  }
