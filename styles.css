@@ -1,41 +1,54 @@
-h1{
-    font-family:'Times New Roman', Times, serif;
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    transition: all 0.3s;
 }
-header a{
-    font-family:fantasy;
+
+header h1:hover {
+    transform: scale(1.02);
+}
+
+header a {
+    font-family: fantasy;
     font-weight: bolder;
     font-size: xx-large;
     transition: all 0.3s;
-   
+
 }
-header a:hover{
+
+header a:hover {
     transform: scale(1.35);
 
 }
-.card{
+
+.card {
     transition: all 0.3s;
-    width:350px;
+    width: 350px;
     height: 400px;
-    
+
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.10);
 }
-a:hover{
-    color:rgb(47, 182, 20);
+
+a:hover {
+    color: rgb(47, 182, 20);
 }
-.card>img{
-    width:350px;
+
+.card>img {
+    width: 350px;
     height: 400px;
 }
+
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.intro h1{
+
+.intro h1 {
 
     font-size: 22px;
     color: aliceblue;
@@ -44,34 +57,40 @@ a:hover{
     transition: all 0.3s;
 }
 
-.intro h1:hover{
+.intro h1:hover {
     transform: scale(1.15);
 
 }
-.intro h4{
+
+.intro h4 {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 400;
     color: aliceblue;
 }
-.intro h5{
+
+.intro h5 {
     text-transform: uppercase;
     font-weight: 700;
     line-height: 20px;
-    color:aliceblue;
+    color: aliceblue;
 }
+
 .bottom-left {
     position: absolute;
     bottom: 50px;
     left: 16px;
-  }
-  footer{
+}
+
+footer {
     margin-top: 30px;
-  }
-  footer img{
+}
+
+footer img {
     transition: all 0.3s;
-  }
-  footer img:hover{
+}
+
+footer img:hover {
     transform: scale(1.35);
 
-  }
+}
