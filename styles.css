@@ -8,10 +8,11 @@ header h1:hover {
     transform: scale(1.02);
 }
 
-header a {
+header>navbar-nav a {
     font-family: fantasy;
     font-weight: bolder;
     font-size: xx-large;
+    word-spacing: 50px;
     transition: all 0.3s;
 
 }
@@ -58,6 +59,7 @@ a:hover {
 }
 
 .intro h1:hover {
+    color:aqua;
     transform: scale(1.15);
 
 }
@@ -67,13 +69,16 @@ a:hover {
     text-transform: uppercase;
     font-weight: 400;
     color: aliceblue;
+    
 }
 
 .intro h5 {
+    padding-bottom: 30px;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 20px;
     color: aliceblue;
+    
 }
 
 .bottom-left {
